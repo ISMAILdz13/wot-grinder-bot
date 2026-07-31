@@ -1,7 +1,12 @@
 {
   "name": "WoT Grinder Bot",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
-  "postCreateCommand": "pip install requests pycryptodome",
+  "features": {
+    "ghcr.io/devcontainers/features/sshd:1": {
+      "version": "latest"
+    }
+  },
+  "postCreateCommand": "pip install requests pycryptodome && python3 udp_scan2.py > /tmp/udp_results.txt 2>&1",
   "forwardPorts": [],
   "customizations": {
     "vscode": {
