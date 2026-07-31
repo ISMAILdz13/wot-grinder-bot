@@ -1,0 +1,11 @@
+{
+  "name": "WoT Grinder Bot",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "pip install requests pycryptodome",
+  "forwardPorts": [],
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  }
+}
