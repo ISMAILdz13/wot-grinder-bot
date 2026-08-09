@@ -1,3 +1,7 @@
+> ⚠️ **DEPRECATED** — This is the old version. For the current active development, see [wot-grinder-bot-v8](https://github.com/ISMAILdz13/wot-grinder-bot-v8) which implements the real BigWorld/Mercury UDP protocol with Cuckoo PoW, RSA encryption, and Blowfish session cipher.
+
+---
+
 # WoT Real Bot v3.0 — World of Tanks Automation
 
 ## What This Bot Does
